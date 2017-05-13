@@ -1,0 +1,91 @@
+/*按新闻类别展示时样式表*/
+#wrap .center {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.center .news_articles {
+	float: left;
+	width: 620px;
+	margin-right: 34px;
+}
+
+.news_title h3 {
+	min-height: 40px;
+	padding-bottom: 14px;
+	font: normal 20px/26px "Microsoft Yahei";
+	float: left;
+}
+
+.news_title h3 a:hover {
+	color: #cb0d0d;
+}
+
+.news_title h3 a {
+	color: #404040;
+}
+
+.read_count {
+	float: right;
+	min-height: 40px;
+	line-height: 40px;
+	color: #aaa;
+}
+
+.time {
+	float: left;
+}
+
+.com-num a {
+	padding-left: 22px;
+	background: url("../images/comment.gif") no-repeat 0 bottom;
+	color: #aaa;
+	font-size: 12px;
+	float: right;
+}
+
+.article {
+	padding: 15px 0;
+	border-bottom: 1px solid #eee;
+}
+
+.top_list {
+	float: right;
+	width: 300px;
+	margin-top: 20px;
+}
+
+.red {
+	background: url("../images/red.gif") no-repeat 6px 12px;
+}
+
+.gray {
+	background: url("../images/gray.gif") no-repeat 6px 12px;
+}
+
+.top_list li {
+	padding: 3px 0 0 6px;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.top_list span {
+	display: inline-block;
+	width: 13px;
+	padding-right: 8px;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.page {
+	margin: 50px auto;
+	padding-left: 50px;
+	text-align: center;
+}
+
+.page li {
+	float: left;
+	margin: 0 30px;
+}

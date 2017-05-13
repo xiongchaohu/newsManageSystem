@@ -1,0 +1,160 @@
+/*用户首页样式表*/
+/*中间内容样式*/
+#content {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#content .news_left {
+	float: left;
+	width: 760px;
+}
+
+#content .side_bar {
+	float: right;
+	width: 230px;
+	/*height:310px;*/
+	/*padding:10px 0;*/
+	/*border:1px solid #cccccc;*/
+	margin: 20px auto;
+}
+
+/*中间div通用样式*/
+#content .news_common {
+	width: 340px;
+	height: 310px;
+	border: 1px solid #E5E5E5;
+	float: left;
+	margin-left: 15px;
+	margin-top: 20px;
+	padding: 10px;
+	overflow: hidden;
+}
+
+#content .news_common .header {
+	line-height: 30px;
+	border-bottom: 1px solid #E5E5E5;
+	margin-bottom: 10px;
+}
+
+#content .news_common h1 {
+	float: left;
+	font-size: 16px;
+	background: url("./../images/list_ico.png") no-repeat 0px;
+	padding-left: 26px;
+}
+
+#content .news_common span a {
+	float: right;
+	color: #9F9F9F;
+}
+
+#content .news_common .content a {
+	overflow: hidden;
+	line-height: 28px;
+	height: 28px;
+	font-size: 14px;
+	color: #5a5a5a;
+}
+
+#content .news_common li {
+	background: url("./../images/dot.gif") no-repeat 0 0;
+	padding: 0 0 0 15px;
+	height: 28px;
+	overflow: hidden;
+}
+
+/*登陆框样式表*/
+#login_form .inputBox {
+	margin-top: 20px;
+	position: relative;
+	height: 40px;
+}
+
+#login_form .login_text {
+	width: 150px;
+	padding: 0 0 0 10px;
+	line-height: 18px;
+	height: 36px;
+	font-size: 14px;
+	position: absolute;
+	left: 55px;
+}
+
+#login_form .userIcon, #login_form .passwordIcon {
+	display: block;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 15px;
+}
+
+#login_form .userIcon {
+	background: url("../images/login_image.png") no-repeat;
+}
+
+#login_form .passwordIcon {
+	background: url("../images/login_image.png") 0px -40px no-repeat;
+}
+
+#login_form .login_btn {
+	width: 210px;
+	height: 42px;
+	line-height: 42px;
+	font-size: 16px;
+	font-family: "幼圆";
+	cursor: pointer;
+	margin: 20px 10px;
+	outline: none;
+	border-radius: 5px;
+	background: #f7671d;
+	border: 1px solid #f06923;
+	color: #fff;
+}
+
+.side_bar .reg_link {
+	padding: 5px 10px;
+	font-size: 14px;
+}
+
+.side_bar .reg_link a {
+	color: #f06923;
+}
+
+.side_bar .login_title h1 {
+	font-size: 16px;
+	line-height: 30px;
+	padding-left: 10px;
+	height: 30px;
+	border-bottom: 1px solid #cccccc;
+}
+
+#links {
+	position: relative;
+	border: 1px solid #cccccc;
+}
+
+#links h1 {
+	font-size: 16px;
+	line-height: 50px;
+	padding-left: 10px;
+	height: 40px;
+	border-bottom: 1px solid #cccccc;
+	margin-bottom: 10px;
+}
+
+.login_wrap {
+	margin-bottom: 20px;
+	padding: 10px 0;
+	height: 310px;
+	border: 1px solid #cccccc;
+}
+
+#remember {
+	padding: 10px 0 0 15px;
+}
+
+#links li {
+	line-height: 40px;
+	text-align: center;
+}

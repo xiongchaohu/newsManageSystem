@@ -1,0 +1,51 @@
+/*搜索结果页样式表*/
+.searchResult {
+	margin: 0 auto;
+	text-align: center;
+	width: 800px;
+}
+
+.center .news_articles {
+	float: left;
+	width: 620px;
+	margin-right: 34px;
+}
+
+.news_title h3 {
+	min-height: 40px;
+	padding-bottom: 14px;
+	font: normal 20px/26px "Microsoft Yahei";
+	float: left;
+}
+
+.news_title h3 a:hover {
+	color: #cb0d0d;
+}
+
+.news_title h3 a {
+	color: #404040;
+}
+
+.read_count {
+	float: right;
+	min-height: 40px;
+	line-height: 40px;
+	color: #aaa;
+}
+
+.time {
+	float: left;
+}
+
+.com-num a {
+	padding-left: 22px;
+	background: url("../images/comment.gif") no-repeat 0 bottom;
+	color: #aaa;
+	font-size: 12px;
+	float: right;
+}
+
+.article {
+	padding: 15px 0;
+	border-bottom: 1px solid #eee;
+}

@@ -1,0 +1,22 @@
+form {
+	position: relative;
+	left: 300px;
+	width: 800px;
+}
+
+button {
+	width: 80px;
+	height: 30px;
+	font-size: 16px;
+	margin-left: 60px;
+}
+
+td {
+	height: 50px;
+}
+
+td input {
+	line-height: 30px;
+	width: 200px;
+	padding-left: 10px;
+}

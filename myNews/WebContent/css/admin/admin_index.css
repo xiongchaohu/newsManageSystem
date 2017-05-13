@@ -1,0 +1,86 @@
+body {
+	background: #f5f5f5;
+}
+
+#header {
+	border-bottom: 4px solid #cb0d0d;
+	height: 80px;
+}
+
+.btn_group {
+	float: right;
+}
+
+.btn_group>span {
+	margin-left: 30px;
+}
+
+.btn_group>span img {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 30px;
+}
+
+#center {
+	padding: 30px;
+}
+
+.nav {
+	width: 240px;
+	min-height: 600px;
+	background: #fff;
+	border: 2px solid #eaeaea;
+	box-shadow: 0px 2px #e5d1d3;
+	border-radius: 15px;
+	float: left;
+}
+
+.nav h3 {
+	line-height: 50px;
+	border-bottom: 2px solid #eaeaea;
+	padding: 0 35px;
+	color: #b34953;
+	position: relative;
+	cursor: pointer;
+}
+
+.nav li {
+	line-height: 50px;
+	border-bottom: 1px solid #e8e8e8;
+	padding: 0 65px;
+	background: url("../../images/dot.gif") no-repeat 50px 12px;
+}
+
+.nav li a {
+	color: #5a5a5a;
+}
+
+.triangle_down_red {
+	position: absolute;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+}
+
+
+.triangle_up {
+	border-left: 7px solid #ca0309;
+	position: absolute;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	border-top:7px solid transparent;
+	border-bottom: 7px solid transparent;
+}
+
+.triangle_down_red {
+	border-top: 7px solid #ca0309;
+}
+
+.nav .triangle_down_red, .nav .triangle_up {
+	top: 19px;
+	left: 10px;
+}

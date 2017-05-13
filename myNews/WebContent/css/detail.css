@@ -1,0 +1,58 @@
+/*新闻详情页样式*/
+.pos {
+	position: relative;
+	top: 10px;
+}
+
+.content {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.content .title {
+	text-align: center;
+}
+
+.content p {
+	line-height: 40px;
+	margin-bottom: 20px;
+}
+
+.content .time {
+	text-align: center;
+}
+
+#comment form {
+	border: solid 1px #1d87e4;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+#comment textarea {
+	height: 114px;
+	resize: none;
+	border: none;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 14px;
+	line-height: 24px;
+	padding: 4px 14px;
+	border-bottom: 1px solid #1d87e4;
+	overflow: auto;
+}
+
+#comment button {
+	width: 130px;
+	height: 40px;
+	line-height: 40px;
+	background: #1d87e4;
+	color: #fff;
+	font-size: 16px;
+	position: relative;
+	top: -3px;
+	left: 655px
+}
+
+.posTitle {
+	text-align: center;
+}

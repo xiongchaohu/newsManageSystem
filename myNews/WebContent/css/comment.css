@@ -1,0 +1,71 @@
+p {
+	line-height: 30px;
+	text-indent: 2em;
+}
+
+.username {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+#wrap .center {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.allCount {
+	position: relative;
+	font-weight: normal;
+	font-size: 16px;
+	right: -100px;
+}
+
+.center .comment {
+	float: left;
+	width: 100%;
+	margin-right: 34px;
+}
+
+.news_title h3 {
+	min-height: 40px;
+	padding-bottom: 14px;
+	font: normal 20px/26px "Microsoft Yahei";
+	float: left;
+}
+
+.news_title h3 a:hover {
+	color: #cb0d0d;
+}
+
+.news_title h3 a {
+	color: #404040;
+}
+
+.time {
+	float: right;
+	min-height: 40px;
+	line-height: 40px;
+	color: #aaa;
+}
+
+.content {
+	float: left;
+}
+
+.com-num a {
+	padding-left: 22px;
+	color: #aaa;
+	font-size: 12px;
+	float: right;
+}
+
+.article {
+	padding: 15px 0;
+	border-bottom: 1px solid #eee;
+}

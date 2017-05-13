@@ -1,0 +1,36 @@
+td {
+	line-height: 50px;
+}
+
+#title {
+	width: 400px;
+	line-height: 30px;
+}
+
+#type {
+	width: 400px;
+	height: 30px;
+}
+
+#content {
+	resize: none;
+	overflow-y: scroll;
+}
+
+.editWrap {
+	position: relative;
+	left: 250px;
+	text-align: center;
+	width: 800px;
+	text-align: center;
+}
+
+button {
+	width: 80px;
+	line-height: 40px;
+	position: relative;
+	left: 100px;
+	top: 30px;
+	font-size: 16px;
+	background: #eaeaea;
+}
